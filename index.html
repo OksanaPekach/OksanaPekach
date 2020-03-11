@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook&Learn</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- <div class="collapse " id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">Add some information about the album below, the author, or any other
+                            background context. Make it a few sentences long so folks can pick up some informative
+                            tidbits. Then, link them off to some social networking sites or contact information.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                            <li><a href="#" class="text-white">Like on Facebook</a></li>
+                            <li><a href="#" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="navbar">
+            <div class="container">
+                <h1>Cook&Learn <br>Best recipes to learn English </h1>
+            </div>
+        </div>
+        <!-- <div class="js-sticky">
+			<div class="header-nav">
+				<div class="container-fluid">
+					<div class="fh5co-menu-1">
+						<a href="#" data-nav-section="home">Home</a>
+						<a href="#" data-nav-section="about">About</a>
+						<a href="#" data-nav-section="features">Features</a>
+					</div>
+					<div class="fh5co-logo">
+						<a href="index.html">foodee</a>
+					</div>
+					<div class="fh5co-menu-2">
+						<a href="#" data-nav-section="menu">Menu</a>
+						<a href="#" data-nav-section="events">Events</a>
+						<a href="#" data-nav-section="reservation">Reservation</a>
+					</div>
+				</div>
+				
+			</div>
+        </div> -->
+        <div class="inner">
+            <nav class="nav nav-masthead">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container">
+                <div class="carousel">
+                    <div><img class="foto-slick" src="./img/5.jpg" alt=""> </div>
+                    <div><img class="foto-slick" src="./img/7.jpg" alt="">  </div>
+                    <div><img class="foto-slick" src="./img/6.jpg" alt=""> </div>
+                    <div><img class="foto-slick" src="./img/9.jpg" alt=""> </div>
+                    <div><img class="foto-slick" src="./img/11.jpg" alt=""> </div>
+                    <div><img class="foto-slick" src="./img/8.jpg" alt=""> </div>
+                  </div>
+                      
+
+                <h3>Welcome to Cook&Learn!</h3>
+                <h5 class="lead"> At this site you can learn English very quickly and you will enjoy the process.
+                    There are the best resipes conteined here. At the same time they are very simple and delicious.
+                </h5>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- <div class="album py-5 bg-light"> -->
+        <div class="album">
+            <div class="container">
+                <form>
+                    <input name="i" placeholder="Search ingridients" type="search">
+                    <button class="search-ingridients btn btn-danger" type="button">Search</button>
+                    <input name="q" placeholder="Search title" type="search">
+                    <button class="search-title btn btn-danger" type="button">Search</button>
+                </form>
+
+                <div class="row" id="cards">
+                    <!-- <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            {% include icons/placeholder.svg width="100%" height="225" background="#55595c" color="#eceeef" class="card-img-top" text="Thumbnail" %}
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    </div>
+                                    <small class="text-muted">9 mins</small>
+                                </div>
+                            </div>
+                        </div>
+                    -->
+                </div>
+                <p class="page"> </p>
+                <div class="search col-12">
+                    <button type="button" class="prev btn btn-success btn-lg"><-Prev</button>
+                            <button type="button" class="next btn btn-success btn-lg">Next-></button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+            <p>New to Bootstrap? <a href="{{ site.url }}/">Visit the homepage</a> or read our <a
+                    href="{{ site.baseurl }}/docs/{{ site.docs_version }}/getting-started/introduction/">getting started
+                    guide</a>.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.carousel').slick({
+                // setting-name: setting-value
+                "autoplay": true,
+                "autoplaySpeed": 3000
+            });
+        });
+
+
+        $('.search-ingridients').on('click', function () {
+
+            var ingridients;
+            ingridients = $('input[name="i"]').val();
+            console.log(ingridients);
+            url = `http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${ingridients}`;
+            load();
+            $('input[name="i"]').val('');
+            console.log(url);
+
+        }
+        )
+        $('.search-title').on('click', function () {
+
+            var title;
+            title = $('input[name="q"]').val();
+            console.log(title);
+            url = `http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${title}`;
+            load();
+            $('input[name="q"]').val('');
+            console.log(url);
+        }
+        )
+        const row = document.querySelector('#cards');
+        let url = 'http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?p=1';
+        // let url = '1.JSON';
+        let p = 1;
+        function load() {
+
+            $.ajax({
+                url: url,
+                type: 'GET'
+            })
+                .done(function (data) {
+                    //console.log(data);
+                    var res = JSON.parse(data);
+
+                    let template = "";
+
+                    res.results.forEach(item => {
+                        //console.dir(item);
+                        if (item.thumbnail)
+                            template +=
+                                `<div class="card-deck col-md-4">                                                                                                                               
+                                 <div class="card mb-4 shadow-sm"> 
+                                 <img class="foto" src="${item.thumbnail}"/>    
+                                 <div class="card-body"> 
+                                 <h3 class="card-text">${item.title}</h3>
+                                 <h6 class="ingrid"><strong>Ingredients : </strong> ${item.ingredients}</h6> 
+                                 </div>                                                                                                                                                     
+                                 <div class="card-footer"> 
+                                 <button type="button" class="btn  btn-lg btn-outline-success"> 
+                                 <a class="rec" href="${item.href}" target="_blank">Read more</a></button> 
+                                 </div>      </div>    </div>`;
+                    })
+
+                    row.innerHTML = template;
+                    $(".page").text(p);
+
+                })
+                .fail(function (error) {
+                    console.log(error);
+                    alert("error");
+                })
+        };
+        load();
+        $('.next').on('click', function () {
+
+            url = `http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?p=${++p}`;
+            load();
+
+            console.log(url);
+            // $('.page').hidden=false;
+            $(".page").text(p);
+        }
+        )
+
+        $('.prev').on('click', function () {
+            p--;
+            if (p > 0) {
+                url = `http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?p=${p}`;
+                load();
+
+                console.log(url);
+                // $(".page").text(p);
+
+            }
+            else p = 0;
+        }
+        )
+        // $('.search-ingridients').on('click', function () {
+
+        // url = `http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${ingredients}`;
+        // load();
+
+        // console.log(url);
+        // }
+        // )
+        // $('.search-ingridients').on('click', function () {
+
+        // url = `http://cors-anywhere.herokuapp.com/recipepuppy.com/api/?i=${ingredients}`;
+        // load();
+
+        // console.log(url);
+        // }
+        // )
+
+
+
+    </script>
+    <!-- <script src="mainCalc.js"></script> -->
+</body>
+
+</html>
